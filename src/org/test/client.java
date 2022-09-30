@@ -10,6 +10,7 @@ public static void main(String[] args) {
 	a[1]=20;
 	a[2]=30;
 	a[3]=40;
+	a[4]=50;
 	int length = a.length;
 	System.out.println("length:" +length);
 	
@@ -18,6 +19,7 @@ public static void main(String[] args) {
 	}
 	for (int x : a) {
 		System.out.println(x);
+		
 	}
 
 }
