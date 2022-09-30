@@ -36,8 +36,16 @@ int hashCode2 = System.identityHashCode(s1);
 	System.out.println("append:" +append);
 	int hashCode10 = System.identityHashCode(append);
 	System.out.println("hashcode10:"+hashCode10);
-	
-	
+	StringBuilder s8 = new StringBuilder("maven");
+	StringBuilder s9 = new StringBuilder("api");
+	int hashCode11 = System.identityHashCode(s8);
+	System.out.println(hashCode11);
+	int hashCode12 = System.identityHashCode(s9);
+	System.out.println(hashCode12);
+	StringBuilder append2 = s8.append(s9);
+	System.out.println(append2);
+	int hashCode13 = System.identityHashCode(append2);
+	System.out.println(hashCode13);
 	
 	
 	
