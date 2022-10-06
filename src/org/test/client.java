@@ -14,6 +14,7 @@ public static void main(String[] args) {
 	int length = a.length;
 	System.out.println("length:" +length);
 	
+	System.out.println("abc");
 	for (int i = 0; i < a.length; i++) {
 		System.out.println(a[i]);
 	}
